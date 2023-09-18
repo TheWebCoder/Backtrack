@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #3559E6;
+    --primary-color: #292929;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #e7e7e7;
@@ -53,7 +53,7 @@ footer .social>a:hover {
 }
 
 .checklist > li i {
-    color: green;
+    color: #F7921D;
 }
 
 code[class*="language-"],
