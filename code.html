@@ -44,10 +44,10 @@
                     <a class="nav-link active" aria-current="page" href="code.html">The Code</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/TheWebCoder/Backtrack">Git Repo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">About</a>
+                    <a class="nav-link" target="_blank" href="https://bryangonzalez.dev/">About</a>
                 </li>
             </ul>
         </div>
@@ -80,12 +80,7 @@
 
                             let revString = [];
 
-                            //let name = Bryan
-                            //name[0] = B
-                            //name[4] = n
-                            // last pos in an array name.length -1
-
-                            //reverse a string using a foor loop
+                            //reverse a string using a for loop
 
                             for (let index = userString.length - 1; index >= 0; index--) {
                                 revString += userString[index];
@@ -110,9 +105,13 @@
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structured in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                    <p>The Code is structured in three functions.</p>
+                    <h5>getValues()</h5>
+                    <p>This is the entry point of the web application. It gets triggered via an event listener on the submit button of the app page. First it selects the alert div via an id and adds the class invisible to it, next it obtains the value of the string the user entered and stores it in a variable named userString, lastly it passes that variable to the reverseString function and stores that value in a new variable named revString which is then passed to the displayString function. </p>
+                    <h5>reverseString(userString)</h5>
+                    <p>The logic function responsible for reversing the string the user entered. First an empty string revString is declared as a container and using a decrementing for loop, beginning at the end of the userString, the characters are added backwards into the revString string. After the for loop terminates the function returns back the revString string which is what the user entered in reverse.</p>
+                    <h5>displayString(revString)</h5>
+                    <p>Responsible for displaying the reversed string and acts as the display or view function. First it selects the msg div and sets the innerHTML to a message containing the reversed string. Lastly it selects the alert div from earlier and removes the invisible class making it visible to the user.</p>
                 </div>
             </div>
         </div>
@@ -125,12 +124,12 @@
                     <div><span class="text-muted">&copy;2023</span> Bryan Gonzalez | bryan@bryangonzalez.dev</div>
                 </div>
                 <div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
-                    <img src="img/logo-full-name-dark.png" alt="Bryan Gonzalez Logo">
+                    <a href="https://bryangonzalez.dev/" target="_blank"><img src="img/logo-full-name-dark.png" alt="Bryan Gonzalez Logo"></a>
                 </div>
                 <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
                     <div class="row">
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://www.linkedin.com/in/the-web-coder/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://github.com/TheWebCoder" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
                         <div class="col social"><a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></div>
                     </div>
                 </div>
