@@ -19,7 +19,7 @@ Backtrack is an engaging JavaScript project that focuses on array manipulation a
 - **The Code**: Provides insights into the project's code structure and logic. 
 
 ## Technology Stack
-- **HTML**: 
-- **CSS**:
-- **JavaScript**: 
-- **Bootstrap**:
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Bootstrap**
